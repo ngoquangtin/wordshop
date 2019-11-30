@@ -1,0 +1,83 @@
+/*
+ ** Set Avatar Box Style
+ */
+
+.set-avatar-box-wrap{position: fixed;top: 80px; margin:0; padding:0;background: white;
+    left: 270px;
+width: 800px;
+    height: 500px;
+	    box-shadow: 0 0 12px black;
+    border-radius: 6px;}
+
+.set-avatar-box {position:relative;}
+
+.set-avatar-box h2 {
+	margin: 25px 25px;
+}
+
+.set-avatar-box p.close-box-wrap {
+	content: "\f158";
+    font: normal 20px/1 dashicons;
+    speak: none;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+	position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.set-avatar-box #tabs-menu{overflow: hidden;
+    padding: 0;
+	border-bottom: 1px solid black;
+	}
+
+
+.set-avatar-box li{  font-size: 25px;float: left;
+    background: #f5f5f5;
+    
+    margin-left: 20px;
+    padding: 4px 12px;
+    border: 1px solid black;
+    border-bottom: none;
+    border-radius: 6px 6px 0 0;
+	cursor:pointer;
+	}
+.set-avatar-box .li-tab-active {
+	background:#fff;
+	border-bottom:none;
+}
+
+.set-avatar-box .set-avatar-tabs {width:100%;}
+
+.set-avatar-box button {    
+margin: 150px auto;
+    display: block;
+
+background: #0085ba;
+    color: #f5f5f5;
+    font-size: 20px;
+    border: 1px solid #006d98;
+    padding: 5px 28px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0px 1px 0 #006d98;
+	text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+}
+	
+.set-avatar-box button:hover{background: #008ec2;}
+.set-avatar-box button:focus{outline:none;background:#008fc7;box-shadow: 0 1px 0 #0073aa, 0 0 2px 1px #33b3db;}
+.set-avatar-box button:active{background:#006d98; padding: 5px 28px 5px 28px;box-shadow:0px 1px 1px #000 inset;transform: translate(0,1px);
+}
+
+.set-avatar-box .images-attachment {
+	display: block;
+    margin: 21px 20px;
+}
+
+.set-avatar-box img {cursor:pointer;margin-right: 20px;}
+.set-avatar-box .img-selected {border:2px solid red;}
+
+
+
+
+

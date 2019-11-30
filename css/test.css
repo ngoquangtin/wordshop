@@ -1,0 +1,68 @@
+body {
+	font-size: 33px;
+	background-color:#333;
+}
+
+img {width: 50px; height: 50px;}
+
+.a-set {
+    border: 1px solid #333;
+    display: inline-block;
+    font-size: 23px;
+    padding: 6px 12px;
+    text-decoration: none;
+}
+
+div.popup {
+	
+    background-color: #fff;
+    padding: 6px;
+    box-shadow: 4px 4px 10px;
+    border-radius: 4px;
+    width: 600px;
+    margin: 0 auto;
+	position: relative;
+}
+
+.button{
+	transition: all 0.1s linear;
+    display: block;
+    background-color: #0073dc;
+    border: 1px solid #005aad;
+    color: #dedede;
+    margin-top: 10px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.button:hover{
+	background-color: #efefef;
+	color: #0073dc;
+}
+
+.a-close{
+	position: absolute;
+    right: 20px;
+    top: 0px;
+    text-decoration: none;
+    font-size: 22px;
+    transition: all .2s linear;
+
+}
+
+.a-close:hover{
+	color: red;
+}
+
+img.select {
+	border: 2px solid red;
+}
+
+
+
+
+
+
+

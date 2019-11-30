@@ -1,0 +1,11 @@
+# Tat chuc nang hien thi thu muc
+Options All -Indexes
+
+# Khong cho phep hien thi thu muc
+IndexIgnore *
+
+# Khong cho phep vao file nao
+<FileMatch '^.*$'>
+Order deny,allow
+deny from all
+</FileMatch>

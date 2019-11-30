@@ -1,0 +1,366 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Izwebz layout</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/general-style.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var w = $('#store a#title').outerWidth();
+			//alert(w);
+		});
+	</script>
+</head>
+
+<body>
+	
+	<div id="header_wrap">
+		<div id="header">
+				
+			<div id="top_nav">
+			
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Author</a></li>
+					<li><a href="#">Copyright</a></li>
+					<li><a href="#">FAQs</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				
+				<form method="post" id="search_form" action="">
+					<p><input type="text" value="Nhập từ khoá và nhấn Enter ..." /></p>
+				</form>
+			
+			</div><!--end #top_nav-->
+			
+			<a href="#"><img src="images/logo.png" alt="logo" /></a>
+			
+			<ul id="menu">
+				<li><a href="#" class="uppercase bold">Home</a></li>
+				<li><a href="#" class="uppercase bold">Newbie</a></li>
+				<li><a href="#" class="uppercase bold">Videos</a>
+					<ul>
+						<li><a href="#" class="uppercase">CSS and HTML</a></li>
+						<li><a href="#" class="uppercase">jQuery</a></li>
+						<li><a href="#" class="uppercase">PHP</a></li>
+						<li><a href="#" class="uppercase">Framework</a>
+							<ul>
+								<li><a href="#" class="uppercase">Laravel</a></li>
+							</ul>
+						</li>
+						<li><a href="#" class="uppercase">Tổng hợp</a></li>
+					</ul>
+				</li>
+				<li><a href="#" class="uppercase bold">Design</a></li>
+				<li><a href="#" class="uppercase bold">jQuery</a></li>
+				<li><a href="#" class="uppercase bold">Wordpress</a></li>
+				<li><a href="#" class="uppercase bold">Tips</a></li>
+			</ul>
+			
+			<div id="store">
+				<a href="#" id="title">Izwebz store<span>2</span></a>
+				
+				<div>
+					<ul id="list_store">
+						<li>
+							<ul>
+								<li><a href="#">+ Cảm nhận của bạn về DVD PSD2HTML ...</a></li>
+								<li><a href="#">+ Đặt hàng mới DVD PHP và MySQL ...</a></li>
+								<li><a href="#">+ Vâng ! Chúng tôi đangkinh doanh</a></li>
+								<li><a href="#">+ DVD mới : PHP và MySQL + izCMS ...</a></li>
+								<li><a href="#">+ Cảm nhận của bạn về DVD DVD PHP và MySQL</a></li>
+							</ul>
+						</li>
+						
+						<li>
+							<h2><a href="#">PSD2HTML + WORDPRESS</a></h2>
+							<p class="money bold">Giá : 90.000 đ</p>
+							<p class="intro">
+								Với 60 Videos và gần 2Gb dữ liệu với những kiến thức cần thiết để bạn trở thành một web Developer thật sự, thì chỉ với 90k VND bạn có thể có tất cả những kiến thức đó...
+							</p>
+						</li>
+						
+						<li>
+							<h2><a href="#">PHP and MySQL + izCMS</a></h2>
+							<p class="money bold">Giá : 230.000 đ</p>
+							<p class="intro">
+								Đây là một bộ DVD hoàn chỉnh dành cho những ai muốn trở thành một lập trình viên PHP. Bộ đĩa này bao gồm 2 DVD, với 145 video tập trung vào những kiến thức căn bản và nâng cao...
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div><!--end #store-->
+			
+			<div id="newpost_feed">
+				<div id="host_new_post">
+					<p class="uppercase bold">Host <span>new</span> post</p>
+					
+					<div id="post">
+						<ul>
+							<li>
+								<img src="images/php.jpg" alt="new post php" />
+								<a href="#">Co ban PHP - Bai 1</a>
+							</li>
+							
+							<li>
+								<img src="images/jquery.jpg" alt="new post jquery" />
+								<a href="#">Gioi thieu ve jQuery</a>
+							</li>
+							
+							<li>
+								<img src="images/manbics.png" alt="new post manbics" />
+								<a href="#">Photoshop tutorial - Manbics layout</a>
+							</li>
+						</ul>
+					</div><!--end #post-->
+				</div><!--end #host_new_post-->
+				
+				<div id="feed_burner">
+					<ul id="feed">
+						<li id="facebook">
+							<h5 id="facebook" class="uppercase bold"><a href="#">Facebook fans</a></h5>
+							<p>fans</p>
+						</li>
+						
+						<li id="rss">
+							<h5 id="rss" class="uppercase bold"><a href="#">RSS Subscribers</a></h5>
+							<p>1036 reader</p>
+						</li>
+						
+						<li id="twitter">
+							<h5 id="twitter" class="uppercase bold"><a href="#">Twitter followers</a></h5>
+							<p>followers</p>
+						</li>
+					</ul>
+					
+					<form method="post" id="burner_form" action="">
+						<p><input type="text" value="Nhập email và nhấn Enter để nhận bài viết mới ..." /></p>
+					</form>
+				</div><!--end #feed_burner-->
+			</div><!--end #newpost_feed-->
+
+		</div><!--end #header-->
+	</div><!--end #header_wrap-->
+
+	<div id="wrapper">
+		
+		<div id="primary">
+		
+			<div id="content">
+			
+				<div class="post_item radius_shadow">
+					<div class="title">
+						<h1><a href="single.html">PSD sang HTML – NATURE LAYOUT</a></h1>
+						<ul class="metadata">
+							<li class="publish">Publish by : <a href="#" class="bold">Tommy</a></li>
+							<li class="cat">In category : <a href="#" class="bold">CSS</a></li>
+							<li class="comments"><a href="#" class="bold">65 comments</a></li>
+						</ul>
+					</div><!--end .title-->
+					
+					<div class="content">
+						<a href="#" class="thumbnail"><img src="images/nature.jpg" alt="thumbnail psd2html" /></a>
+						
+						<p class="main_content">
+							Xin chào tất cả các bạn, rất vui được gặp lại các bạn trên izwebz, mình là Tommy. Lời đầu tiên tôi xin chân thành cảm ơn tất cả những comments góp ý cũng như ủng hộ của các bạn trong tutorial trước của tôi. Sau này tôi sẽ cố gắng làm thật nhiều tutorials hơn nữa để đáp lại sự ủng hộ nhiệt tình của các bạn.
+						</p>
+					</div><!--end .content-->
+					
+				</div><!--end .post_item-->
+			
+				<div class="post_item radius_shadow">
+					<div class="title">
+						<h1><a href="#">PSD sang HTML – BUSSINESS LAYOUT</a></h1>
+						<ul class="metadata">
+							<li class="publish">Publish by : <a href="#" class="bold">Tommy</a></li>
+							<li class="cat">In category : <a href="#" class="bold">CSS</a></li>
+							<li class="comments"><a href="#" class="bold">81 comments</a></li>
+						</ul>
+					</div><!--end .title-->
+					
+					<div class="content">
+						<a href="#" class="thumbnail"><img src="images/psd2html.jpg" alt="thumbnail psd2html" /></a>
+						
+						<p class="main_content">
+							Xin chào tất cả các bạn. Mình là Tommy, là người mới của izwebz. Đây là bài tutorial đầu tiên của mình. Trong bài tut này thì mình sẽ hướng dẫn bạn convert một giao diện website doanh nghiệp từ PSD sang HTML. Tuy trên izwebz đã có vài tut về PSD sang HTML nhưng mình nghĩ đây là bước quan trọng trong thiết kế website nên nếu làm thêm vài tutorial nữa chắc cũng không sao.
+						</p>
+					</div><!--end .content-->
+					
+				</div><!--end .post_item-->
+				
+				<div class="post_item radius_shadow">
+					<div class="title">
+						<h1><a href="#">Open Server – Tạo localhost kiểu Nga</a></h1>
+						<ul class="metadata">
+							<li class="publish">Publish by : <a href="#" class="bold">Đinh Thế Hoàn Viễn</a></li>
+							<li class="cat">In category : <a href="#" class="bold">Tool</a></li>
+							<li class="comments"><a href="#" class="bold">51 comments</a></li>
+						</ul>
+					</div><!--end .title-->
+					
+					<div class="content">
+						<a href="#" class="thumbnail"><img src="images/localhost.jpg" alt="thumbnail psd2html" /></a>
+						
+						<p class="main_content">
+							Thông thường khi thiết kế hoặc lập trình Web, tôi để ý thấy các lập trình viên thường dùng XXAMP. Ưu điểm dễ thấy nhất của XXAMP là có khả năng chạy trên nhiều hệ điều hành như Windows, Mac OS X, Linux, Solaris. Hơn nữa, XXAMP trên Windows có thể hoạt động như một phần mềm Portable, chỉ cần giải nén ra là chạy, chạy mọi lúc mọi nơi; buồn buồn thì thả vào USB chạy cũng được.
+						</p>
+					</div><!--end .content-->
+					
+				</div><!--end .post_item-->
+				
+				<div class="post_item radius_shadow">
+					<div class="title">
+						<h1><a href="#">[WordPress Plugin] Action & Filter</a></h1>
+						<ul class="metadata">
+							<li class="publish">Publish by : <a href="#" class="bold">Mr. Nav</a></li>
+							<li class="cat">In category : <a href="#" class="bold">Plug-in</a></li>
+							<li class="comments"><a href="#" class="bold">5 comments</a></li>
+						</ul>
+					</div><!--end .title-->
+					
+					<div class="content">
+						<a href="#" class="thumbnail"><img src="images/wp.png" alt="thumbnail psd2html" /></a>
+						
+						<p class="main_content">
+							Action và Filter trong wordpress mà tôi phải nhấn mạnh rằng nó rất quan trọng khi bạn viết plugin hay phát triển theme, nó có rất nhiều loại action và filter mà khi bạn sử dụng nó cho nhiều trường hợp sẽ thấy nó vô cùng đơn giản và hiệu quả. Khi các bạn biết cách vận dụng nó thì bạn có thể xây dựng bất kể site nào khi sử dụng WP. Trong bài hôm nay chúng ta sẽ tìm hiểu về Action và Filter, sau đó chúng ta sẽ làm một số ví dụ để hiểu rõ hơn
+						</p>
+					</div><!--end .content-->
+					
+				</div><!--end .post_item-->
+				
+				<ul id="paginate" class="radius_shadow">
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">...</a></li>
+					<li><a href="#">&raquo;</a></li>
+					<li><a href="#">10</a></li>
+					<li><a href="#">20</a></li>
+					<li><a href="#">Trang cuối</a></li>
+				</ul>
+			
+			</div><!--end #content-->
+			
+			<div id="sidebar">
+				<div id="store_newbie" class="radius_shadow">
+					<h3 id="store" class="uppercase">Izwebz store</h3>
+					<img src="images/store.jpg" alt="store" />
+					
+					<h3 id="newbie"><a href="#">Các series nên xem trên izwebz cho newbie</a></h3>
+					<p id="intro_newbie">
+						Khi vào izwebz chắc nhiều bạn cho rằng các bài viết trên izwebz đều không có hệ thống gì cả? Thực chất, các bài biết đều đi theo một series của riêng nó, ví dụ như PHP, HTML & CSS, PSD2HTML, Photoshop, illustrator,… Trong bài viết này, mình sẽ tổng hợp lại các series bài viết cần thiết cho một newbie.
+					</p>
+					
+					<ul id="post_newbie">
+						<li>
+							<a href="#"><img src="images/sidebar_1.jpg" alt="nature layout" /></a>
+							<h4><a href="#">PSD sang HTML – NATURE LAYOUT</a></h4>
+							<p>Post by <a href="#">Tommy</a> 07/09/2013</p>
+						</li>
+						
+						<li>
+							<a href="#"><img src="images/sidebar_2.jpg" alt="newbie" /></a>
+							<h4><a href="#">Base64 image – Lợi hại ?</a></h4>
+							<p>Post by <a href="#">Võ Minh Mẫn</a> 04/06/2013</p>
+						</li>
+						
+						<li>
+							<a href="#"><img src="images/sidebar_3.jpg" alt="newbie" /></a>
+							<h4><a href="#">Biết nhẫn nại và kiên trì</a></h4>
+							<p>Post by <a href="#">Demon Warlock</a> 22/09/2008</p>
+						</li>
+						
+						<li>
+							<a href="#"><img src="images/sidebar_4.png" alt="newbie" /></a>
+							<h4><a href="#">Co ban HTML - Phan 4</a></h4>
+							<p>Post by <a href="#">Demon Warlock</a> 25/10/2009</p>
+						</li>
+						
+						<li>
+							<a href="#"><img src="images/sidebar_5.jpg" alt="newbie" /></a>
+							<h4><a href="#">Co ban PHP - Phan 1</a></h4>
+							<p>Post by <a href="#">Demon Warlock</a> 18/03/2013</p>
+						</li>
+					</ul>
+				</div><!--end #store_newbie-->
+				
+				<div id="tabbed_nav" class="radius_shadow">
+					<ul id="tabs">
+						<li><a href="#">Co ban</a></li>
+						<li><a href="#">Pho bien</a></li>
+						<li><a href="#">Ngau nhien</a></li>
+					</ul>
+					
+					<div id="co_ban">
+						<ul>
+							<li><a href="#">HTML co ban</a></li>
+							<li><a href="#">Tao trang web dau tien</a></li>
+							<li><a href="#">PSD - HTML</a></li>
+							<li><a href="#">Su dung div</a></li>
+							<li><a href="#">CSS selector</a></li>
+							<li><a href="#">Wordpress template</a></li>
+							<li><a href="#">Tao login form</a></li>
+							<li><a href="#">jQuery tabbed navgation</a></li>
+							<li><a href="#">Photoshop can ban</a></li>
+							<li><a href="#">Loi thuong gap voi IE6</a></li>
+						</ul>
+					</div><!--end #co_ban-->
+				</div><!--end #tabbed_nav-->
+			</div><!--end #sidebar-->
+		
+		</div><!--end #primary-->
+		
+	</div><!--end #wrapper-->
+	
+	<div id="footer_wrap">
+		<div id="footer">
+			<ul id="info_footer">
+				<li>
+					<h6>Giới thiệu izwebz</h6>
+					<p>
+						Izwebz is solemnly hand coded and designed from scratch by Izwebz Team. It is also very proud of being powered by WordPress, which is an exceptionally well written and beautiful CMS.
+					</p>
+				</li>
+				
+				<li>
+					<h6>Điều khoản sử dụng</h6>
+					<ul>
+						<li>Rules are not made to be broken at Izwebz.</li>
+						<li>Bạn không được tự ý copy và phát hành lại nội dung của izwebz nếu chưa được sự đồng ý của tôi.</li>
+						<li>Biết tôn trọng và cư xử hòa nhã với mọi người</li>
+						<li>Izwebz được quyền xóa những comment nào không phù hợp với nội dung của trang web.</li>
+					</ul>
+				</li>
+				
+				<li>
+					<h6>Liên kết</h6>
+					<ul>
+						<li><a href="#">muagibando.com</a></li>
+						<li><a href="#">Kaylaximuoi.com</a></li>
+						<li><a href="#">themetiger.com</a></li>
+						<li><a href="#">minhman.com</a></li>
+						<li><a href="#">Tin công nghê</a></li>
+						<li><a href="#">Tin tức game</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<h6>Viết bài cho izwebz</h6>
+					<p>
+						Trang web vẫn đang trong quá trình phát triển về nội dung. Do vậy nếu bạn có khả năng hãy đóng góp bài viết hoặc bạn có thể quảng cáo trang web đến những người mà bạn biết. Được vậy tôi sẽ rất biết ơn bạn.
+					</p>
+				</li>
+			</ul>
+			
+			<ul id="copy_power">
+				<li>Copyright &copy; 2013 by Quang Tin </li>
+				<li>Power by Wordpress</li>
+			</ul>
+		</div><!--end #footer-->
+	</div><!--end #footer_wrap-->
+</body>
+</html>

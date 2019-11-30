@@ -1,0 +1,713 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+html,body,div,span,h1,h2,h3,h4,h5,h6,
+p,a,font,img,b,u,i,ol,ul,li,fieldset,form {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}
+
+body {font-size: 62.5%;font-family: 'Poppins', arial, sans-serif;line-height: 2em;background: #f0f0f0 url(../images/body_bg.jpg) no-repeat left top;}
+
+ol,ul {list-style: none;}
+
+a {text-decoration: none; transition: 0.2s linear;}
+
+a img {border: none;}
+
+img {vertical-align: center;}
+
+:focus {outline:0;}
+
+.uppercase {text-transform: uppercase;}
+
+.bold {font-weight: bold;}
+
+.radius_shadow {border-radius: 6px;box-shadow: 3px 3px 3px #d6d6d6;border: 1px solid #d6d6d6;background: white;}
+
+.float_left {float: left;}
+
+.float_right {float: right;}
+
+#wrapper {width: 1180px;margin: 0px auto;}
+
+/************************************/
+/*********** HEADER *****************/
+/************************************/
+
+#header_wrap {width: auto;background: url(../images/header_bg.jpg) repeat-x top left;}
+
+#header {position: relative;width: 1180px;margin: 0px auto;}
+
+#header #top_nav {overflow: hidden;height: 37px; line-height: 37px;}
+
+#header #top_nav ul {float: left;overflow: hidden;}
+
+#header #top_nav ul li {display: inline;}
+
+#header #top_nav ul li a {display: block;margin-right: 20px;float: left;font-family: "Poppins", tahoma, sand-serif;font-size: 15px;color: white;}
+
+#header #top_nav ul li a:hover {color: #0fa1e0;}
+
+#header #top_nav form {font-family:'Poppins',sans-serif ;float: right;}
+
+#header #top_nav form p input {width: 280px;font-style: italic;color: #ababab;border: 1px solid #f1f1f1;padding: 4px 5px;}
+
+#header a img {margin-top: 11px;}
+
+/**********************************/
+/****** Start CATEGORIES MENU Part */
+/**********************************/
+#header #ul-category-menu {width: 100%;height: 52px; line-height: 52px;margin-top: 4px;background: url(../images/menu_bg.jpg) repeat-x top left;border-radius: 6px 6px 0px 0px;}
+
+#header #ul-category-menu li {position: relative;float: left;z-index:100;}
+
+#header #ul-category-menu li a {display: block;float: left;font-family: 'Poppins', tahoma, sand-serif;font-size: 14px;color: #ffffee;padding: 0px 10px 0px;}
+
+#header #ul-category-menu > li:first-child a {border-radius: 6px 0px 0px 0px;}
+
+#header #ul-category-menu > li:hover > a {background: url(../images/menu_bg.jpg) repeat-x bottom left;color: #009bdf;}
+
+#header #ul-category-menu li ul {width: 100%; position: absolute;top: 52px;box-shadow: 3px 3px 2px #0072c4;display: none;}
+
+#header #ul-category-menu li ul ul {top: 0px; left: 100%;}
+
+#header #ul-category-menu li ul li {width: 100%; height: 45px; line-height: 45px;}
+
+#header #ul-category-menu li ul li a {background: #0fa1e0;width: 100%;padding: 0px;text-indent: 15px;}
+
+#header #ul-category-menu li ul li:hover a {background: #0c7fb0;color: white;}
+
+#header #ul-category-menu li ul ul li a {background: #0c7fb0;}
+
+#header #ul-category-menu li ul ul li:hover a {background: #095c80;}
+
+/*
+#header #ul-category-menu li:hover ul ul,
+#header #ul-category-menu li:hover ul ul ul,
+#header #ul-category-menu li:hover ul ul ul ul {display: none;}
+
+#header #ul-category-menu li:hover ul,
+#header #ul-category-menu li li:hover ul,
+#header #ul-category-menu li li li:hover ul {display: block;}
+*/
+/**********************************/
+/****End CATEGORIES MENU Part******/
+/**********************************/
+
+/**********************************/
+/****Start STORE MENU Part******/
+/**********************************/
+#header .div-store-in-menu {position: absolute;top: 158px; right: 0px;}
+
+/*#header .div-store-in-menu:hover .ul-list-items-store {display: block;}*/
+
+#header .div-store-in-menu >a {
+font-family: 'Poppins', tahoma, sand-serif;
+font-size: 18px;
+color: white;
+display: block;
+height: 52px; line-height: 52px;
+padding: 0px 10px;
+float: right;
+padding-right: 19px;
+border-radius: 0px 6px 0px 0px;
+background: url(../images/store.png) no-repeat 121px center;
+}
+
+#header .div-store-in-menu >a:hover {background: url(../images/store_hv.jpg) no-repeat bottom right;}
+
+#header .div-store-in-menu >a span {font-family: 'Poppins', tahoma, sand-serif;font-size: 18px;margin: auto 0px auto 17px;}
+
+#header .div-store-in-menu div {clear: both;width: 129px;}
+
+#header .div-store-in-menu div .ul-list-items-store {
+display: none;
+width: 350px;
+position: absolute;
+left: -192px;
+}
+
+#header .div-store-in-menu .ul-list-items-store li {
+font-family: 'Poppins', tahoma, sand-serif;
+font-size: 16px;
+color: #fcffde;
+}
+
+#header .div-store-in-menu .ul-list-items-store > li {
+padding: 8px 13px;
+background: #ff3639;
+border-bottom: 1px solid #999999;
+}
+
+#header .div-store-in-menu .ul-list-items-store > li:hover {background: #e02a2d;}
+
+#header .div-store-in-menu .ul-list-items-store li ul {line-height: 1.7em;}
+
+#header .div-store-in-menu .ul-list-items-store li a {color: #fcffde;}
+
+#header .div-store-in-menu .ul-list-items-store li a:hover {color: #141414;}
+
+#header .div-store-in-menu .ul-list-items-store li h2 a {font-size: 24px;}
+
+#header .div-store-in-menu .ul-list-items-store li p.money {font-size: 20px;margin: 7px 0px 14px 0px;}
+
+/**********************************/
+/****End STORE MENU Part******/
+/**********************************/
+
+/**********************************/
+/****Start NEW POST - FEED Part******/
+/**********************************/
+#header #newpost_feed {
+width: 1178px; height: 82px;
+overflow: hidden;
+border-radius: 0px 0px 6px 6px;
+box-shadow: 3px 3px 3px #d6d6d6;
+border: 1px solid #d6d6d6;
+border-top: none;
+}
+
+#header #newpost_feed #host_new_post {
+float: left;
+width: 723px;
+overflow: hidden;
+background: white;
+height: 100%;
+}
+
+#header #newpost_feed #host_new_post p {
+float: left;
+background: #f7f7f7;
+width: 60px;
+height: 100%;
+padding: 10px 5px 0px;
+font-family: 'Poppins', tahoma, sans-serif;
+font-size: 20px;
+font-weight: bold;
+color: #3db2e6;
+}
+
+#header #newpost_feed #host_new_post p span {
+font-size: 16px;
+}
+
+#header #newpost_feed #host_new_post #post {
+float: right;
+width: 653px;
+}
+
+#header #newpost_feed #host_new_post #post ul {
+overflow: hidden;
+padding: 10px 0px 0px 15px;
+}
+
+#header #newpost_feed #host_new_post #post ul li {
+float: left;
+overflow: hidden;
+margin-right: 40px;
+}
+
+#header #newpost_feed #host_new_post #post ul li:last-child {
+margin-right: 0px; 
+}
+
+#header #newpost_feed #host_new_post #post ul li img {
+width: 60px; height: 60px;
+float: left;
+margin-right: 5px;
+}
+
+#header #newpost_feed #host_new_post #post ul li a {
+float: right;
+width: 110px;
+font-family: 'Poppins', tahoma, sans-serif;
+font-size: 14px;
+font-weight: bold;
+color: #292929;
+}
+
+#header #newpost_feed #host_new_post #post ul li a:hover {
+color: #0ea4e3;
+}
+
+#header #newpost_feed #feed_burner {
+float: right;
+width: 455px;
+height: 100%;
+}
+
+#header #newpost_feed #feed_burner ul#feed {
+margin-left: 6px;
+}
+
+#header #newpost_feed #feed_burner ul#feed li {
+margin-right: 10px;
+float: left;
+}
+#header #newpost_feed #feed_burner ul#feed li h5 {
+
+}
+
+#header #newpost_feed #feed_burner ul#feed li h5 a {
+font-family: 'Poppins', tahoma, sans-serif;
+font-size: 14px;
+color: #292929;
+}
+
+#header #newpost_feed #feed_burner ul#feed li#facebook h5 a:hover {
+color: #3a5897;
+}
+
+#header #newpost_feed #feed_burner ul#feed li#rss h5 a:hover {
+color: #f49b27;
+}
+
+#header #newpost_feed #feed_burner ul#feed li#twitter h5 a:hover {
+color: #2bcaff;
+}
+
+#header #newpost_feed #feed_burner ul#feed li p {
+font-family: 'Poppins', tahoma, sans-serif;
+font-size: 14px;
+color: #292929;
+text-indent: 34px;
+}
+
+#header #newpost_feed #feed_burner ul#feed li#facebook p {
+background: transparent url(../images/facebook.png) no-repeat center left;
+}
+
+#header #newpost_feed #feed_burner ul#feed li#rss p {
+background: transparent url(../images/rss.png) no-repeat center left;
+}
+
+#header #newpost_feed #feed_burner ul#feed li#twitter p {
+background: transparent url(../images/twitter.png) no-repeat center left;
+}
+
+#header #newpost_feed #feed_burner form {
+clear: right;
+margin-left: 6px;
+}
+
+#header #newpost_feed #feed_burner form p {
+border: 1px solid #f1f1f1;
+}
+
+#header #newpost_feed #feed_burner form p input {
+margin: 7px 0px 0px 0px;
+width: 423px; 
+font-style: italic;
+color: #ababab;
+padding: 4px 5px;
+}
+
+/**********************************/
+/****End NEW POST - FEED Part******/
+/**********************************/
+
+
+
+
+
+
+
+/************************************/
+/*********** PRIMARY *****************/
+/************************************/
+
+#primary {
+width: 100%;
+margin-top: 18px;
+overflow: hidden;
+}
+
+/************************************/
+/*********** PRIMARY --> CONTENT*****************/
+/************************************/
+
+#primary #content {
+width: 779px;
+float: left;
+}
+
+#primary #content div.post_item {
+background: white;
+margin-bottom: 20px;
+overflow: hidden;
+position:relative;
+}
+
+#primary #content div.post_item div.title {
+background: #fafafa;
+border-bottom: 1px dotted #e6e6e6;
+padding-bottom: 13px;
+}
+
+#primary #content div.post_item div.title h1 {padding: 18px 0px 0px 12px;}
+
+#primary #content div.post_item div.title h1,
+#primary #content div.post_item div.title h1 a {font-family: 'Poppins', arial, sand-serif;font-size: 24px;color: #19191a;}
+#primary #content div.post_item div.title h1 a:hover {color: #009bdf;}
+
+#primary #content div.post_item div.title ul.metadata {overflow: hidden;margin-top: 8px;padding-left: 12px;}
+
+#primary #content div.post_item div.title ul.metadata li {
+font-family: 'Poppins', tahoma, sand-serif;
+font-size: 14px;
+color: #19191a;
+float: left;
+margin-right: 40px;
+}
+
+#primary #content div.post_item div.title ul.metadata li {
+text-indent: 25px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-position: center left;
+}
+
+#primary #content div.post_item div.title ul.metadata li a {
+color: #05a0e3;
+}
+
+#primary #content div.post_item div.title ul.metadata li.publish {
+background-image: url(../images/publish.png);
+}
+
+#primary #content div.post_item div.title ul.metadata li.cat {
+background-image: url(../images/cat.png);
+}
+
+#primary #content div.post_item div.title ul.metadata li.comments {
+background-image: url(../images/comments.png);
+}
+
+#primary #content div.post_item div.content a.thumbnail img {
+width: 149px; height: 149px;
+float: left;
+border: 1px solid #d6d6d6;
+padding: 5px;
+margin: 15px 0px 27px 12px;
+}
+
+#primary #content div.post_item div.content p.main_content {
+float: right; width: 550px;
+font-family: 'Poppins', tahoma ,sans-serif;
+font-size: 14px;
+line-height: 1.7em;
+color: #19191a;
+margin: 12px 27px 27px 12px;
+text-align:justify;
+}
+
+#primary #content div.post_item div.content p.edit-post a {    
+	background: #0085ba;
+    color: #f5f5f5;
+    font-size: 16px;
+    border: 1px solid #006d98;
+    padding: 4px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0px 1px 0 #006d98;
+	text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+
+	position: absolute;
+    top: 10px;
+    left: 640px;
+}
+	
+#primary #content div.post_item div.content p.edit-post a:hover{background: #008ec2;}
+#primary #content div.post_item div.content p.edit-post a:focus{outline:none;background:#008fc7;box-shadow: 0 1px 0 #0073aa, 0 0 2px 1px #33b3db;}
+#primary #content div.post_item div.content p.edit-post a:active{background:#006d98;box-shadow:0px 1px 1px #000 inset;transform: translate(0,1px);}
+
+
+
+#primary #content ul#paginate {
+background: white;
+overflow: hidden;
+width: 100%;
+padding: 10px 0px;
+}
+
+#primary #content ul#paginate li {
+display: inline;
+}
+
+#primary #content ul#paginate li.current-page {
+	font-family: 'Poppins', tahoma, sans-serif;
+	font-size: 14px;
+	background: #f14a29;
+	color: white;
+	font-weight: bold;
+	padding: 8px 10px;
+	border-radius: 5px;
+	margin-left: 12px;
+}
+
+#primary #content ul#paginate li a {
+font-family: 'Poppins', tahoma, sans-serif;
+font-size: 14px;
+background: #009bdf;
+color: white;
+font-weight: bold;
+padding: 8px 10px;
+border-radius: 5px;
+margin-left: 12px;
+}
+
+#primary #content ul#paginate li a:hover {
+background: #f14a29;
+}
+
+
+/************************************/
+/*********** PRIMARY --> SIDEBAR PART*****************/
+/************************************/
+
+#sidebar {
+width: 379px;
+float: left;
+margin-left: 18px;
+}
+
+#sidebar .div-widget-sidebar-group {
+	margin-bottom: 19px;
+}
+
+/************************************/
+/*********** PRIMARY --> SIDEBAR --> STORE_NEWBIE*****************/
+/************************************/
+
+#sidebar .store-newbie {}
+
+#sidebar .store-newbie .h3-widget-title-sidebar {
+height: 36px; line-height: 36px;
+width: 100%; text-align: center;
+border-radius: 6px 6px 0px 0px;
+font-family: 'Poppins', tahoma, sans-serif;
+font-size: 18px;
+background: #009bdf;
+color: white;
+font-weight: normal;
+}
+
+#sidebar .store-newbie .img-sidebar {width: 100%;}
+
+#sidebar .store-newbie .h3-widget-sidebar {
+width: 360px;
+text-align: center;
+margin: 18px auto 0px;
+}
+
+#sidebar .store-newbie .h3-widget-sidebar a {
+font-family: 'Poppins', arial, sans-serif;
+font-size: 18px;
+color: #19191a;
+}
+
+#sidebar .store-newbie .h3-widget-sidebar a:hover {
+color: #009be4;
+}
+
+#sidebar .store-newbie .p-widget-sidebar {
+font-family: 'Poppins', tahoma, sans-serif;
+font-size: 14px;
+color: #19191a;
+line-height: 1.6em;
+margin: 20px 15px 0px 15px;
+}
+
+#sidebar .store-newbie .ul-post-newbie {
+margin: 20px 0px 23px 0px;
+height: 330px;
+overflow: hidden;
+}
+
+#sidebar .store-newbie .ul-post-newbie li {
+border-top: 1px solid #f7f7f7;
+border-bottom: 1px solid #f7f7f7;
+padding: 7px 15px 7px 15px;
+overflow: hidden;
+}
+
+#sidebar .store-newbie .ul-post-newbie li:hover {
+background: #fafafa;
+}
+
+#sidebar .store-newbie .ul-post-newbie li a img {
+width: 50px; height: 50px;
+float: left; 
+margin-right: 7px;
+}
+
+#sidebar .store-newbie .ul-post-newbie li h4 a, #sidebar .store-newbie .ul-post-newbie li p {
+font-family: 'Poppins', tahoma, sans-serif;
+font-size: 14px;
+color: #19191a;
+}
+
+#sidebar .store-newbie .ul-post-newbie li h4 a:hover {
+color: #00a5ea;
+}
+
+#sidebar .store-newbie .ul-post-newbie li p a {
+color: #19191a;
+font-weight: bold;
+}
+
+#sidebar .store-newbie .ul-post-newbie li p a:hover {
+color: #539be8;
+}
+
+/************************************/
+/*********** PRIMARY --> SIDEBAR --> TABBED_NAV*****************/
+/************************************/
+
+#sidebar .tabbed_nav {}
+
+#sidebar .tabbed_nav ul {overflow: hidden; margin-top: 9px}
+
+#sidebar .tabbed_nav .ul-tab-buttons li {display: inline;}
+
+#sidebar .tabbed_nav .ul-tab-buttons li a {
+display: block;
+float: left;
+font-family: 'Poppins', arial, sans-serif;
+font-size: 15px;
+color: white;
+text-transform: uppercase;
+padding: 5px 10px;
+background: #009bdf;
+border-radius: 4px;
+margin-left: 10px;
+}
+
+#sidebar .tabbed_nav .ul-tab-buttons li a:hover, 
+#sidebar .tabbed_nav .ul-tab-buttons li .a-active-tab-button {background-color: #f14a29;}
+
+#sidebar .tabbed_nav .div-lists-group ul {margin: 20px 0px 0px 0px;}
+
+#sidebar .tabbed_nav .div-lists-group ul li {
+border-top: 1px solid #f7f7f7;
+border-bottom: 1px solid #f7f7f7;
+}
+
+#sidebar .tabbed_nav .div-lists-group ul li:hover {background-color: #fafafa;}
+
+#sidebar .tabbed_nav .div-lists-group ul li:last-child {border-radius: 0px 0px 6px 6px;}
+
+#sidebar .tabbed_nav .div-lists-group ul li a {
+display: block;
+margin-left: 15px;
+font-family: 'Poppins', tahoma, sans-serif;
+font-size: 15px;
+color: #19191a;
+padding: 6px 0px 6px 0px;
+}
+
+#sidebar .tabbed_nav .div-lists-group ul li .span-tooltips-group {
+	width: 250px;
+	display: none;
+	position: absolute;
+	background-color: yellow;
+	font-size: 12px;
+	text-align: justify;
+	padding: 4px;
+	left: 0;
+	top: 0;
+}
+
+#sidebar .tabbed_nav .div-lists-group ul li a:hover {color: #f4602d;}
+
+
+
+
+/************************************/
+/*********** FOOTER*****************/
+/************************************/
+
+
+#footer_wrap {
+width: auto;
+background: #fefefe;
+}
+
+#footer {
+width: 1180px;
+margin: 80px auto 0px;
+padding-bottom: 12px;
+}
+
+
+
+
+/************************************/
+/*********** FOOTER --> INFO_FOOTER*****************/
+/************************************/
+
+#footer ul#info_footer {
+overflow: hidden;
+}
+
+#footer ul#info_footer li {
+float: left;
+width: 267px;
+margin-right: 25px;
+}
+
+#footer ul#info_footer li h6 {
+font-family: 'Poppins', arial, sans-serif;
+font-size: 18px;
+color: #575757;
+background: url(../images/chi_muc.jpg) no-repeat center left;
+text-indent: 25px;
+margin: 11px 0px 15px 0px;
+}
+
+#footer ul#info_footer li p {
+font-family: 'Poppins', arial, sans-serif;
+font-size: 14px;
+color: #575757;
+line-height: 1.6em;
+}
+
+#footer ul#info_footer li ul {
+list-style-type: square;
+list-style-position: inside;
+}
+
+#footer ul#info_footer li ul li {
+font-family: 'Poppins', arial, sans-serif;
+font-size: 14px;
+color: #575757;
+}
+
+#footer ul#info_footer li ul li a {
+color: #575757;
+}
+
+#footer ul#info_footer li ul li a:hover {
+color: #009be9;
+}
+
+/************************************/
+/*********** FOOTER --> COPY_POWER*****************/
+/************************************/
+
+#footer ul#copy_power {
+overflow: hidden;
+border-top: 1px solid #d6d6d6;
+margin-top: 16px; padding-top: 16px;
+}
+
+#footer ul#copy_power li {
+font-family: 'Poppins', arial, sans-serif;
+font-size: 14px;
+color: #575757;
+}
+
+#footer ul#copy_power li:first-child {
+float: left;
+}
+
+#footer ul#copy_power li:last-child {
+float: right;
+}
+

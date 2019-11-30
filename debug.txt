@@ -1,0 +1,454 @@
+
+SELECT COUNT(post_id) FROM posts WHERE date_format(p.post_time, '%b %Y')='Aug 2019': Unknown column 'p.post_time' in 'where clause' on ARCHIVE.PHP at 1565852641
+
+		SELECT p.user_id, p.category_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.post_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.post_time, '%I:%i %p') AS hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   cats.category_name,
+			   count(coms.comment_id ) AS count
+	
+		FROM 				posts		AS p 
+				INNER JOIN 	users 		AS u 		USING(user_id)
+				INNER JOIN 	categories 	AS cats 	USING(category_id)
+				INNER JOIN 	comments 	AS coms 	USING(post_id)
+
+		WHERE post_id=7
+	: Unknown column 'category_id' in 'from clause' on SINGLE.PHP at 1565855732
+
+		SELECT p.user_id, p.category_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.post_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.post_time, '%I:%i %p') AS hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   count(coms.comment_id ) AS count
+	
+		FROM 				posts		AS p 
+				INNER JOIN 	users 		AS u 		USING(user_id)
+				INNER JOIN 	comments 	AS coms 	USING(post_id)
+
+		WHERE post_id=7
+	: Unknown column 'p.category_id' in 'field list' on SINGLE.PHP at 1565855761
+
+		SELECT p.user_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.post_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.post_time, '%I:%i %p') AS hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   count(coms.comment_id ) AS count
+	
+		FROM 				posts		AS p 
+				INNER JOIN 	users 		AS u 		USING(user_id)
+				INNER JOIN 	comments 	AS coms 	USING(post_id)
+
+		WHERE post_id=
+	: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9 on SINGLE.PHP at 1565857890
+
+		SELECT p.user_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.post_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.post_time, '%I:%i %p') AS hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   count(coms.comment_id ) AS count
+	
+		FROM 				posts		AS p 
+				INNER JOIN 	users 		AS u 		USING(user_id)
+				INNER JOIN 	comments 	AS coms 	USING(post_id)
+
+		WHERE post_id=
+	: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9 on SINGLE.PHP at 1565858065
+
+		SELECT p.user_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.post_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.post_time, '%I:%i %p') AS hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   count(coms.comment_id ) AS count
+	
+		FROM 				posts		AS p 
+				INNER JOIN 	users 		AS u 		USING(user_id)
+				INNER JOIN 	comments 	AS coms 	USING(post_id)
+
+		WHERE post_id=
+	: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9 on SINGLE.PHP at 1565858788
+
+		SELECT p.user_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.post_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.post_time, '%I:%i %p') AS hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   count(coms.comment_id ) AS count
+	
+		FROM 				posts		AS p 
+				INNER JOIN 	users 		AS u 		USING(user_id)
+				INNER JOIN 	comments 	AS coms 	USING(post_id)
+
+		WHERE post_id=
+	: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9 on SINGLE.PHP at 1565858820
+
+		SELECT p.user_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.post_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.post_time, '%I:%i %p') AS hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   count(coms.comment_id ) AS count
+	
+		FROM 				posts		AS p 
+				INNER JOIN 	users 		AS u 		USING(user_id)
+				INNER JOIN 	comments 	AS coms 	USING(post_id)
+
+		WHERE post_id=
+	: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9 on SINGLE.PHP at 1565858851
+
+		SELECT p.user_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.post_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.post_time, '%I:%i %p') AS hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   count(coms.comment_id ) AS count
+	
+		FROM 				posts		AS p 
+				INNER JOIN 	users 		AS u 		USING(user_id)
+				INNER JOIN 	comments 	AS coms 	USING(post_id)
+
+		WHERE post_id=
+	: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9 on SINGLE.PHP at 1565859220
+
+		SELECT p.user_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.post_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.post_time, '%I:%i %p') AS hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   count(coms.comment_id ) AS count
+	
+		FROM 				posts		AS p 
+				INNER JOIN 	users 		AS u 		USING(user_id)
+				INNER JOIN 	comments 	AS coms 	USING(post_id)
+
+		WHERE post_id=
+	: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9 on SINGLE.PHP at 1565859240
+
+		SELECT p.user_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.post_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.post_time, '%I:%i %p') AS hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   count(coms.comment_id ) AS count
+	
+		FROM 				posts		AS p 
+				INNER JOIN 	users 		AS u 		USING(user_id)
+				INNER JOIN 	comments 	AS coms 	USING(post_id)
+
+		WHERE post_id=
+	: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9 on SINGLE.PHP at 1565859332
+
+		SELECT p.user_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.post_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.post_time, '%I:%i %p') AS hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   count(coms.comment_id ) AS count
+	
+		FROM 				posts		AS p 
+				INNER JOIN 	users 		AS u 		USING(user_id)
+				INNER JOIN 	comments 	AS coms 	USING(post_id)
+
+		WHERE post_id=
+	: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9 on SINGLE.PHP at 1565859507
+
+		SELECT p.user_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.post_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.post_time, '%I:%i %p') AS hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   count(coms.comment_id ) AS count
+	
+		FROM 				posts		AS p 
+				INNER JOIN 	users 		AS u 		USING(user_id)
+				INNER JOIN 	comments 	AS coms 	USING(post_id)
+
+		WHERE post_id=
+	: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9 on SINGLE.PHP at 1565859559
+
+		SELECT p.user_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.post_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.post_time, '%I:%i %p') AS hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   count(coms.comment_id ) AS count
+	
+		FROM 				posts		AS p 
+				INNER JOIN 	users 		AS u 		USING(user_id)
+				INNER JOIN 	comments 	AS coms 	USING(post_id)
+
+		WHERE post_id=
+	: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9 on SINGLE.PHP at 1565859653
+
+		SELECT p.user_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.post_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.post_time, '%I:%i %p') AS hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   count(coms.comment_id ) AS count
+	
+		FROM 				posts		AS p 
+				INNER JOIN 	users 		AS u 		USING(user_id)
+				INNER JOIN 	comments 	AS coms 	USING(post_id)
+
+		WHERE post_id=
+	: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9 on SINGLE.PHP at 1565859674
+
+		SELECT p.user_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.post_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.post_time, '%I:%i %p') AS hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   count(coms.comment_id ) AS count
+	
+		FROM 				posts		AS p 
+				INNER JOIN 	users 		AS u 		USING(user_id)
+				INNER JOIN 	comments 	AS coms 	USING(post_id)
+
+		WHERE post_id=
+	: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9 on SINGLE.PHP at 1565859682
+
+		SELECT p.user_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.post_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.post_time, '%I:%i %p') AS hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   count(coms.comment_id ) AS count
+	
+		FROM 				posts		AS p 
+				INNER JOIN 	users 		AS u 		USING(user_id)
+				INNER JOIN 	comments 	AS coms 	USING(post_id)
+
+		WHERE post_id=
+	: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9 on SINGLE.PHP at 1565860171
+SELECT category_id, title, slug, content, thumbnail_url FROM posts WHERE post_id=11 LIMIT 1: Unknown column 'category_id' in 'field list' on EDIT_POST.PHP at 1565912069
+SELECT category_id, title, slug, content, thumbnail_url FROM posts WHERE post_id=11 LIMIT 1: Unknown column 'category_id' in 'field list' on EDIT_POST.PHP at 1565912079
+UPDATE postmeta SET term_id= WHERE post_id=17 AND term_id=4: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE post_id=17 AND term_id=4' at line 1 on UPDATE-CATEGORIES.PHP at 1565922684
+SELECT term_id FROM postmeta WHERE post_id= ORDER BY ID ASC: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY ID ASC' at line 1 on UPDATE-CATEGORIES.PHP at 1565922952
+
+								SELECT term_id, name FROM terms
+								WHERE taxonomy='category' AND parent=0
+								ORDER BY ID ASC
+							: Unknown column 'ID' in 'order clause' on EDIT_POST_NEW.PHP at 1565926251
+
+		SELECT p.user_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.post_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.post_time, '%I:%i %p') AS hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   count(coms.comment_id ) AS count
+	
+		FROM 				posts		AS p 
+				INNER JOIN 	users 		AS u 		USING(user_id)
+				INNER JOIN 	comments 	AS coms 	USING(post_id)
+
+		WHERE post_id=
+	: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9 on SINGLE.PHP at 1565935486
+
+		SELECT p.user_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.post_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.post_time, '%I:%i %p') AS hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   count(coms.comment_id ) AS count
+	
+		FROM 				posts		AS p 
+				INNER JOIN 	users 		AS u 		USING(user_id)
+				INNER JOIN 	comments 	AS coms 	USING(post_id)
+
+		WHERE post_id=
+	: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9 on SINGLE.PHP at 1565956104
+
+		SELECT p.user_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.post_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.post_time, '%I:%i %p') AS hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   count(coms.comment_id ) AS count
+	
+		FROM 				posts		AS p 
+				INNER JOIN 	users 		AS u 		USING(user_id)
+				INNER JOIN 	comments 	AS coms 	USING(post_id)
+
+		WHERE post_id=
+	: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9 on SINGLE.PHP at 1565956266
+UPDATE terms SET position=1 WHERE term_id=categories-menu-submit LIMIT 1: Unknown column 'categories' in 'where clause' on SORT-CATEGORIES.PHP at 1566012111
+select count(category_id) as category from categories: Table 'wordshop.categories' doesn't exist on INDEX.PHP at 1566014083
+SELECT ID FROM postmeta WHERE post_id= AND term_id=1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND term_id=1' at line 1 on ADD_NEW_POST.PHP at 1566019730
+SELECT ID FROM postmeta WHERE post_id= AND term_id=1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND term_id=1' at line 1 on ADD_NEW_POST.PHP at 1566019812
+SELECT ID FROM postmeta WHERE post_id= AND term_id=1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND term_id=1' at line 1 on ADD_NEW_POST.PHP at 1566020152
+SELECT page_id FROM pages WHERE slug='portfolio' AND page_id!=2
+					UPDATE pages SET title='Portfolio', slug='portfolio', content='There is nothing else that you need in life when it comes to building the most remarkable portfolio website other than Divi. This is not just a tool for developing websites of all kinds. It turns you into a pro designed and developer in an instant and even if you are not one of those just yet. As a matter of fact, even if you are still a complete beginner, you can use Divi and craft a custom page for your online project to push your services and talent.
+
+While Divi comes with quite a considerable amount of predefined material, you can always do things your way. Improve and edit what is at your disposal or create entirely custom layouts that fit your demands to the last detail. With Divi, anything is possible since the options you have are endless.
+
+<img src="https://colorlib.com/wp/wp-content/uploads/sites/2/jevelin-portfolio-website-template.jpg" alt="portfolio image" />
+
+Jevelin is a responsive WordPress theme that requires no previous knowledge for anything. It is perfect for lazy, non programmers, or simply busy people. It comes with tons of demos and pre-built choices for page elements. Jevelin is also documented, and even provides video tutorials to guide you all the way through. It uses a Drag & Drop page builder and a MegaMenu that simplify many panel tasks. +40 amazing shortcodes are also included to get creative and crafty! Additionally, Jevelin is essentially multipurpose and adaptable to browsers or devices. It is made with many possible actions, but only one real goal: quality page building. Also, special add-ons that make it great include WPML for translation and Google Maps. Moreover, you get to share your posts and new son anything you want with social media buttons.
+
+Jevelin is also fast and optimized for navigation with SEO. It comes with +10 portfolio layouts and 6 blog pages too. Get it all ready to make commercial transactions and forms for potential customers. Furthermore, it has been integrated with awesome WooCommerce and Contact Form 7 plugins. Lastly, it will provide you with a child theme and free constant updates! Have a quick look, and you will not turn back!'
+					WHERE page_id=2
+					LIMIT 1
+				: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UPDATE pages SET title='Portfolio', slug='portfolio', content='There is nothing ' at line 2 on EDIT_PAGE.PHP at 1566059868
+SELECT page_id FROM pages WHERE slug='portfolio' AND page_id!=2
+					UPDATE pages SET title='Portfolio', slug='portfolio', content='There is nothing else that you need in life when it comes to building the most remarkable portfolio website other than Divi. This is not just a tool for developing websites of all kinds. It turns you into a pro designed and developer in an instant and even if you are not one of those just yet. As a matter of fact, even if you are still a complete beginner, you can use Divi and craft a custom page for your online project to push your services and talent.'
+					WHERE page_id=2
+					LIMIT 1
+				: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UPDATE pages SET title='Portfolio', slug='portfolio', content='There is nothing ' at line 2 on EDIT_PAGE.PHP at 1566060004
+SELECT page_id FROM pages WHERE slug='portfolio' AND page_id!=2
+					UPDATE pages SET title='Portfolio', slug='portfolio', content='There is nothing else that you need'
+					WHERE page_id=2
+					LIMIT 1
+				: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UPDATE pages SET title='Portfolio', slug='portfolio', content='There is nothing ' at line 2 on EDIT_PAGE.PHP at 1566060138
+SELECT page_id FROM pages WHERE slug='portfolio' AND page_id!=2
+					UPDATE pages SET title='Portfolio', slug='portfolio', content='Its a divi'
+					WHERE page_id=2
+					LIMIT 1
+				: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UPDATE pages SET title='Portfolio', slug='portfolio', content='Its a divi'
+				' at line 2 on EDIT_PAGE.PHP at 1566060185
+SELECT title, content FROM pages WHERE page_id=: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 on PAGE.PHP at 1566060872
+
+		SELECT p.user_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.post_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.post_time, '%I:%i %p') AS hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   count(coms.comment_id ) AS count
+	
+		FROM 				posts		AS p 
+				INNER JOIN 	users 		AS u 		USING(user_id)
+				INNER JOIN 	comments 	AS coms 	USING(post_id)
+
+		WHERE post_id=20
+	: Unknown column 'p.post_time' in 'field list' on SINGLE.PHP at 1566061700
+SELECT p.post_id, p.title, p.content as excerpt, p.slug, p.thumbnail_url, DATE_FORMAT(p.post_time, '%d/%m/%Y') as day , u.user_id, u.display_name from posts as p inner join users as u using(user_id) ORDER BY RAND() LIMIT 0,10: Unknown column 'p.post_time' in 'field list' on SINGLE.PHP at 1566061709
+select date_format(post_time, '%b %Y') as archives from posts order by post_id desc: Unknown column 'post_time' in 'field list' on SINGLE.PHP at 1566061756
+select date_format(post_time, '%b %Y') as archives from posts order by post_id desc: Unknown column 'post_time' in 'field list' on SINGLE.PHP at 1566062047
+
+			UPDATE posts SET title='Just To Show You It Works', content='Just To Show You It Works. Ok ! Let's Update It.', updated_time=NOW()
+			WHERE post_id=20
+			LIMIT 1
+		: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Update It.', updated_time=NOW()
+			WHERE post_id=20
+			LIMIT 1' at line 1 on EDIT_POST.PHP at 1566062089
+select date_format(post_time, '%b %Y') as archives from posts order by post_id desc: Unknown column 'post_time' in 'field list' on SINGLE.PHP at 1566062148
+select date_format(post_time, '%b %Y') as archives from posts order by post_id desc: Unknown column 'post_time' in 'field list' on SINGLE.PHP at 1566062153
+select date_format(post_time, '%b %Y') as archives from posts order by post_id desc: Unknown column 'post_time' in 'field list' on SINGLE.PHP at 1566062204
+select date_format(post_time, '%b %Y') as archives from posts order by post_id desc: Unknown column 'post_time' in 'field list' on SINGLE.PHP at 1566062210
+
+		SELECT  p.post_id, p.title, p.slug AS post_slug, p.content, p.thumbnail_url, date_format(p.post_time, '%d-%m-%Y') as day,
+				u.user_id, u.display_name
+		FROM posts AS p INNER JOIN users AS u USING(user_id)
+		ORDER BY post_id DESC
+		LIMIT 0,5
+	: Unknown column 'p.post_time' in 'field list' on INDEX.PHP at 1566092079
+select date_format(post_time, '%b %Y') as archives from posts order by post_id desc: Unknown column 'post_time' in 'field list' on INDEX.PHP at 1566092108
+select date_format(post_time, '%b %Y') as archives from posts order by post_id desc: Unknown column 'post_time' in 'field list' on SINGLE.PHP at 1566092122
+
+		SELECT p.post_id, p.title, p.slug, p.content, p.thumbnail_url 
+		from posts as p
+		WHERE date_format(p.post_time, '%b %Y')='Aug 2019'
+		order by post_id DESC
+		limit 0,3
+	: Unknown column 'p.post_time' in 'where clause' on ARCHIVE.PHP at 1566092253
+
+		SELECT  p.post_id, p.title, p.slug AS post_slug, p.content, p.thumbnail_url, date_format(p.post_time, '%d-%m-%Y') as day,
+				u.user_id, u.display_name
+		FROM posts AS p INNER JOIN users AS u USING(user_id)
+		ORDER BY post_id DESC
+		LIMIT 10,5
+	: Unknown column 'p.post_time' in 'field list' on PAGINATION-INDEX.PHP at 1566092431
+SELECT page_id, title, left(content, 600) as excerpt, date_format(post_time, '%d-%m-%Y') as date FROM pages ORDER BY page_id DESC LIMIT 0, 1: Unknown column 'post_time' in 'field list' on MANAGE_PAGES.PHP at 1566092623
+SELECT COUNT(category_id) AS count FROM categories: Table 'wordshop.categories' doesn't exist on MANAGE_CATEGORIES.PHP at 1566093276
+SELECT COUNT(post_id) FROM postmeta WHERE term_id=: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 on MANAGE_CATEGORIES.PHP at 1566093619
+SELECT COUNT(category_id) AS count FROM categories: Table 'wordshop.categories' doesn't exist on MANAGE_CATEGORIES.PHP at 1566093652
+SELECT term_id, name, slug FROM terms
+		  WHERE taxonomy='category' AND parent=0
+		  ORDER BY position ASC:  on INDEX.PHP at 1566142862
+
+		SELECT p.user_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.posted_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.posted_time, '%I:%i %p') AS hour, DATE_FORMAT(p.updated_time, '%d-%m-%Y') AS updated_day, DATE_FORMAT(p.updated_time, '%I:%i %p') AS updated_hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   count(coms.comment_id ) AS count
+	
+		FROM 				posts		AS p 
+				INNER JOIN 	users 		AS u 		USING(user_id)
+				INNER JOIN 	comments 	AS coms 	USING(post_id)
+
+		WHERE post_id=
+	: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9 on SINGLE.PHP at 1566144987
+SELECT count(comment_id) from comments where post_id=: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 on SINGLE.PHP at 1566147403
+select slug from posts where post_id=p: Unknown column 'p' in 'where clause' on INDEX.PHP at 1566211846
+
+		SELECT name, slug, parent from terms
+		where taxonomy='category' and term_id= limit 1
+	: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit 1' at line 2 on EDIT_TERM.PHP at 1566215673
+SELECT name, slug, parent,taxonomy FROM terms
+		  term_id=4 LIMIT 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=4 LIMIT 1' at line 2 on EDIT_TERM.PHP at 1566216386
+
+				INSERT INTO posts ( user_id  ,title  ,slug  ,content  ,thumbnail_url  ,posted_time ) 
+				VALUES(1, 'Windows 10 Pro: More of a dead end than ever', 'windows-10-pro:-more-of-a-dead-end-than-ever', 'Microsoft has made it clear that it wants companies to embrace Windows 10 Enterprise, leaving the lesser Pro version in the dust. Gartner analyst Stephen Kleynhans sees no reason that will change.
+
+Windows 10 Pro remains a dead end for most organizations, an analyst reiterated in an interview.
+
+"Absolutely, still a dead end," said Stephen Kleynhans, a research vice president at Gartner.
+More than a year ago, Kleynhans and Michael Silver, another Gartner analyst, asserted that <a href="https://www.computerworld.com/article/3276278/windows-10-pro-is-a-dead-end-for-the-enterprise-gartner-says.html">Windows 10 Pro - the version traditionally factory-installed on business-grade PCs - was a blind alley for most businesses.</a> Although Microsoft has long emphasized Windows 10 Enterprise, and before that, other SKUs (stock-keeping units) with the same "Enterprise" suffix, Pro's second-class citizenship was more starkly revealed when Microsoft offered then-temporary support extensions only to Enterprise customers.
+
+"The one thing that really surprised me about the added support was the fact that it didn't apply to Pro," Kleynhans said in a May 2018 interview. "I think that this telegraphed the fact that, for businesses, Pro is being dead-ended."
+
+What held then still holds now, Kleynhans said. "If you are a very small organization, your needs aren't very great, and you have no need to manage your PCs. Then ((Windows 10)) Pro is great in the small business, like a small store or a doctor's office.
+
+"But if you have any need for central IT or centralized management, it's hard to see how Pro would be suitable," Kleynhans added.
+
+Windows 10 Pro's biggest problem remains support. When Kleynhans and Silver warned clients last year of Pro's unsuitability, Microsoft had only months before added six months to the support lifecycle for recent Windows 10 Enterprise upgrades, including versions 1609, 1703 and 1709. (Oddly, the very latest version at the time, the April 2018 Update, aka 1803 in Microsoft's numeric parlance, did not initially receive the same support extension to 24 months.)
+Since the Gartner analysts issued their original alert about Pro, Microsoft has tilted the playing field even further toward Windows 10 Enterprise. In September 2018, the Redmond, Wash. company announced that as of Windows 10 1809, the version that should have launched in October, every fall feature upgrade would receive 30 months of support, not the 18 of Windows 10 Pro. (In yet another odd move, Microsoft limited the support for each year's spring feature upgrade to 18 months, even for Enterprise. Hence, Windows 10 Enterprise was to be supported 18 months for each yy03 version and 30 months for yy09 refreshes. Enterprise was the only Windows 10 SKU to be given a bifurcated support lifecycle.)
+
+The impact of the additional support was immediately recognized. While Windows 10 Pro's cadence of deploying feature upgrades could be reduced to one each year, that came with risk and required agility on the part of the business. There was little room for error, either on the part of Microsoft in meeting release deadlines or on the part of a business in its prep-pilot-deploy due diligence.
+
+Those managing Window 10 Enterprise, on the other hand, were allowed so much flexibility by the 30 months of support that they could start deployment anywhere during the first 12 and still let workers run a version for 12 months. Especially daring and/or agile IT staffs might reduce deployments to only one every 24 months if they were confident Microsoft would stay on schedule.
+
+<h2>Why Microsoft won't make Windows 10 Pro better</h2>
+Left unsaid in the entire "dead end" conversation is that Microsoft has no motivation to improve Windows 10 Pro to the point where it can serve as a viable OS for organizations.
+
+The divergence between the two SKUs is, of course, entirely artificial. Microsoft set the boundaries, as is its right, and would be foolish in the face of anything but a massive customer rebellion to make one much like the other, whether to raise Pro or lower Enterprise.
+
+Usually, "follow the money" is good advice. It is here.
+
+Once Microsoft is paid by the OEM (original equipment manufacturer) - the computer maker, as in a Lenovo or an HP - for the copy of Windows 10 Pro that's installed on a PC prior to it leaving the factory, Microsoft doesn't make another direct dime from the operating system. (Okay, one could pay for Software Assurance for Windows 10 Pro, but the question would be Why?)
+
+Certainly, Microsoft can earn revenue from sales of other software or services for and to that Windows 10 Pro PC, as it has for decades. But Windows 10 Pro is a one-time sale, a one-time money maker.
+
+Not so Enterprise. Where Microsoft once was limited to Software Assurance revenue for Enterprise, now it sells subscriptions to the software in several forms, ranging from Windows 10 Enterprise E3 and E5 to Microsoft 365 Enterprise E3 and E5. Those subscriptions generate recurring revenue, providing in return a more comprehensive feature set that in most cases is exclusive to the Enterprise SKU. If the subscription expires and is not renewed, the PC resorts to again running Windows 10 Pro.
+
+It's remarkable: Microsoft has managed to get many customers to pay twice for an operating system, once when it's included in the price of the PC, again with an Enterprise subscription.
+
+Not only will Microsoft not dare upset that apple cart, but it surely wishes that all businesses eventually adopt Enterprise. It may even secretly wish for Pro to simply disappear as a business option. All that, and more, means the company will be unlikely to extend Windows 10 Pro's support from the current 18 months or duplicate Enterprise-only features within the lower SKU.
+
+Customers should expect a growing number of benefits to Enterprise with no concurrent comparatives for Pro. Wherever possible, Microsoft will give the edge to Enterprise, even in the smallest ways.
+
+For instance, the impending "Windows 7 Extended Security Updates," after-end-of-support security updates that will be available for three years starting in January 2020, are <a href="https://www.computerworld.com/article/3339678/windows-7-add-on-support-to-cost-up-to-350-per-pc-for-3-more-years-of-patches.html">priced differently for Enterprise and Pro</a> users. Those licensing PCs through Windows 10 Enterprise or Microsoft 365 Enterprise will pay $25 per device for the first year of extended support; other customers, "who have not purchased Windows 10 Enterprise and have determined that Windows 10 Pro is adequate for their needs," must pay twice that, $50, for the first year.
+
+Advantage, Enterprise.', NULL, NOW())
+			: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's second-class citizenship was more starkly revealed when Microsoft offered then' at line 2 on ADD_NEW_POST.PHP at 1566222418
+
+				INSERT INTO posts ( user_id  ,title  ,slug  ,content  ,thumbnail_url  ,posted_time ) 
+				VALUES(1, 'Windows 10 Pro: More of a dead end than ever', 'windows-10-pro:-more-of-a-dead-end-than-ever', 'Not only will Microsoft not dare upset that apple cart, but it surely wishes that all businesses eventually adopt Enterprise. It may even secretly wish for Pro to simply disappear as a business option. All that, and more, means the company will be unlikely to extend Windows 10 Pro's support from the current 18 months or duplicate Enterprise-only features within the lower SKU.', NULL, NOW())
+			: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's support from the current 18 months or duplicate Enterprise-only features withi' at line 2 on ADD_NEW_POST.PHP at 1566222459
+UPDATE posts SET title='Windows 10 Pro: More of a dead end than ever', content='Microsoft has made it clear that it wants companies to embrace Windows 10 Enterprise, leaving the lesser Pro version in the dust. Gartner analyst Stephen Kleynhans sees no reason that will change.
+
+Windows 10 Pro remains a dead end for most organizations, an analyst reiterated in an interview.
+
+"Absolutely, still a dead end," said Stephen Kleynhans, a research vice president at Gartner.
+More than a year ago, Kleynhans and Michael Silver, another Gartner analyst, asserted that <a href="https://www.computerworld.com/article/3276278/windows-10-pro-is-a-dead-end-for-the-enterprise-gartner-says.html">Windows 10 Pro - the version traditionally factory-installed on business-grade PCs - was a blind alley for most businesses.</a> Although Microsoft has long emphasized Windows 10 Enterprise, and before that, other SKUs (stock-keeping units) with the same "Enterprise" suffix, Pro's second-class citizenship was more starkly revealed when Microsoft offered then-temporary support extensions only to Enterprise customers.
+
+"The one thing that really surprised me about the added support was the fact that it didn't apply to Pro," Kleynhans said in a May 2018 interview. "I think that this telegraphed the fact that, for businesses, Pro is being dead-ended."
+
+What held then still holds now, Kleynhans said. "If you are a very small organization, your needs aren't very great, and you have no need to manage your PCs. Then ((Windows 10)) Pro is great in the small business, like a small store or a doctor's office.
+
+"But if you have any need for central IT or centralized management, it's hard to see how Pro would be suitable," Kleynhans added.
+
+Windows 10 Pro's biggest problem remains support. When Kleynhans and Silver warned clients last year of Pro's unsuitability, Microsoft had only months before added six months to the support lifecycle for recent Windows 10 Enterprise upgrades, including versions 1609, 1703 and 1709. (Oddly, the very latest version at the time, the April 2018 Update, aka 1803 in Microsoft's numeric parlance, did not initially receive the same support extension to 24 months.)
+Since the Gartner analysts issued their original alert about Pro, Microsoft has tilted the playing field even further toward Windows 10 Enterprise. In September 2018, the Redmond, Wash. company announced that as of Windows 10 1809, the version that should have launched in October, every fall feature upgrade would receive 30 months of support, not the 18 of Windows 10 Pro. (In yet another odd move, Microsoft limited the support for each year's spring feature upgrade to 18 months, even for Enterprise. Hence, Windows 10 Enterprise was to be supported 18 months for each yy03 version and 30 months for yy09 refreshes. Enterprise was the only Windows 10 SKU to be given a bifurcated support lifecycle.)
+
+The impact of the additional support was immediately recognized. While Windows 10 Pro's cadence of deploying feature upgrades could be reduced to one each year, that came with risk and required agility on the part of the business. There was little room for error, either on the part of Microsoft in meeting release deadlines or on the part of a business in its prep-pilot-deploy due diligence.
+
+Those managing Window 10 Enterprise, on the other hand, were allowed so much flexibility by the 30 months of support that they could start deployment anywhere during the first 12 and still let workers run a version for 12 months. Especially daring and/or agile IT staffs might reduce deployments to only one every 24 months if they were confident Microsoft would stay on schedule.
+
+<h2>Why Microsoft won't make Windows 10 Pro better</h2>
+Left unsaid in the entire "dead end" conversation is that Microsoft has no motivation to improve Windows 10 Pro to the point where it can serve as a viable OS for organizations.
+
+The divergence between the two SKUs is, of course, entirely artificial. Microsoft set the boundaries, as is its right, and would be foolish in the face of anything but a massive customer rebellion to make one much like the other, whether to raise Pro or lower Enterprise.
+
+Usually, "follow the money" is good advice. It is here.
+
+Once Microsoft is paid by the OEM (original equipment manufacturer) - the computer maker, as in a Lenovo or an HP - for the copy of Windows 10 Pro that's installed on a PC prior to it leaving the factory, Microsoft doesn't make another direct dime from the operating system. (Okay, one could pay for Software Assurance for Windows 10 Pro, but the question would be Why?)
+
+Certainly, Microsoft can earn revenue from sales of other software or services for and to that Windows 10 Pro PC, as it has for decades. But Windows 10 Pro is a one-time sale, a one-time money maker.
+
+Not so Enterprise. Where Microsoft once was limited to Software Assurance revenue for Enterprise, now it sells subscriptions to the software in several forms, ranging from Windows 10 Enterprise E3 and E5 to Microsoft 365 Enterprise E3 and E5. Those subscriptions generate recurring revenue, providing in return a more comprehensive feature set that in most cases is exclusive to the Enterprise SKU. If the subscription expires and is not renewed, the PC resorts to again running Windows 10 Pro.
+
+It's remarkable: Microsoft has managed to get many customers to pay twice for an operating system, once when it's included in the price of the PC, again with an Enterprise subscription.
+
+Not only will Microsoft not dare upset that apple cart, but it surely wishes that all businesses eventually adopt Enterprise. It may even secretly wish for Pro to simply disappear as a business option. All that, and more, means the company will be unlikely to extend Windows 10 Pro's support from the current 18 months or duplicate Enterprise-only features within the lower SKU.
+
+Customers should expect a growing number of benefits to Enterprise with no concurrent comparatives for Pro. Wherever possible, Microsoft will give the edge to Enterprise, even in the smallest ways.
+
+For instance, the impending "Windows 7 Extended Security Updates," after-end-of-support security updates that will be available for three years starting in January 2020, are <a href="https://www.computerworld.com/article/3339678/windows-7-add-on-support-to-cost-up-to-350-per-pc-for-3-more-years-of-patches.html">priced differently for Enterprise and Pro</a> users. Those licensing PCs through Windows 10 Enterprise or Microsoft 365 Enterprise will pay $25 per device for the first year of extended support; other customers, "who have not purchased Windows 10 Enterprise and have determined that Windows 10 Pro is adequate for their needs," must pay twice that, $50, for the first year.
+
+Advantage, Enterprise.', updated_time=NOW()
+			  WHERE post_id=21
+			  LIMIT 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's second-class citizenship was more starkly revealed when Microsoft offered then' at line 1 on EDIT_POST.PHP at 1566222577
+UPDATE posts SET title='Windows 10 Pro: More of a dead end than ever', content='Not only will Microsoft not dare upset that apple cart, but it surely wishes that all businesses eventually adopt Enterprise. It may even secretly wish for Pro to simply disappear as a business option. All that, and more, means the company will be unlikely to extend Windows 10 Pro's support from the current 18 months or duplicate Enterprise-only features within the lower SKU.', updated_time=NOW()
+			  WHERE post_id=21
+			  LIMIT 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's support from the current 18 months or duplicate Enterprise-only features withi' at line 1 on EDIT_POST.PHP at 1566222655
+UPDATE posts SET title='Windows 10 Pro: More of a dead end than ever', content='Not only will Microsoft not dare upset that apple cart, but it surely wishes that all businesses eventually adopt Enterprise. It may even secretly wish for Pro to simply disappear as a business option. All that, and more, means the company will be unlikely to extend Windows 10 Pro's support from the current 18 months or duplicate Enterprise-only features within the lower SKU.', updated_time=NOW()
+			  WHERE post_id=21
+			  LIMIT 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's support from the current 18 months or duplicate Enterprise-only features withi' at line 1 on EDIT_POST.PHP at 1566222800
+UPDATE posts SET title='Windows 10 Pro: More of a dead end than ever', content='No's', updated_time=NOW()
+			  WHERE post_id=21
+			  LIMIT 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's', updated_time=NOW()
+			  WHERE post_id=21
+			  LIMIT 1' at line 1 on EDIT_POST.PHP at 1566222861
+UPDATE posts SET title='Windows 10 Pro: More of a dead end than ever', content='sdfdsfdsf \\'\\' \"\" fdf', updated_time=NOW()
+			  WHERE post_id=21
+			  LIMIT 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\\' \"\" fdf', updated_time=NOW()
+			  WHERE post_id=21
+			  LIMIT 1' at line 1 on EDIT_POST.PHP at 1566223647
+SELECT p.user_id, p.title, p.content, p.thumbnail_url, DATE_FORMAT(p.posted_time, '%d-%m-%Y') AS day, DATE_FORMAT(p.posted_time, '%I:%i %p') AS hour, DATE_FORMAT(p.updated_time, '%d-%m-%Y') AS updated_day, DATE_FORMAT(p.updated_time, '%I:%i %p') AS updated_hour,
+			   u.display_name, u.bio, u.avatar_url,
+			   count(coms.comment_id ) AS count
+		  FROM 		  posts	   AS p 
+		  INNER JOIN  users    AS u    USING(user_id)
+		  INNER JOIN  comments AS coms USING(post_id)
+		  WHERE post_id=: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7 on SINGLE.PHP at 1566224538
+
+		SELECT p.post_id, p.title, p.slug, p.content, p.thumbnail_url 
+		from posts as p 
+		 where date_format(post_time, '%b %Y')='Aug 2019' 
+		order by post_id DESC
+		limit 3,3
+	: Unknown column 'post_time' in 'where clause' on PAGINATION-ARCHIVE.PHP at 1566225566

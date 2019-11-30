@@ -1,0 +1,19 @@
+# Tat chuc nang hien thi thu muc
+Options All -Indexes
+
+# Khong cho phep hien thi thu muc
+IndexIgnore *
+
+RewriteEngine On
+RewriteRule "home" "index.php"
+RewriteRule "contact" "admin/contact.php"
+RewriteRule "my-profile" "admin/manage_profile.php"
+RewriteRule "logout" "logout.php"
+RewriteRule "redirect" "redirect-back.php"
+RewriteRule "page-not-found" "404.php"
+
+
+RewriteRule "^([a-z0-9\-]+)$" "single.php?slug=$1"
+#RewriteRule "^category/([a-z0-9\-]+)$" "category.php?slug=$1"
+RewriteRule "^page/([a-z0-9\-]+)$" "page.php?slug=$1"
+#RewriteRule "^author/([0-9]+)$" "author.php?user_id=$1"
